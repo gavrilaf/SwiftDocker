@@ -1,13 +1,5 @@
 FROM swift:latest
 
-#ADD . /app
-#WORKDIR /app
-
-#RUN swift package resolve
-#RUN swift build --configuration release
-
-#ENTRYPOINT .build/release/SwiftDocker
-
 ADD . /app
 WORKDIR /app
 
